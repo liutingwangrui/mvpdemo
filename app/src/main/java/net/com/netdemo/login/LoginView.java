@@ -9,4 +9,5 @@ import net.com.netdemo.login.bean.LoginInfo;
 
 public interface LoginView extends BaseView {
      void onLoginResult(LoginInfo loginInfo);
+     void onListener(boolean isClick);
 }
