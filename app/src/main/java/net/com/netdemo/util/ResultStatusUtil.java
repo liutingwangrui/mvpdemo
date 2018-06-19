@@ -10,7 +10,7 @@ import net.com.netdemo.base.BaseView;
 
 public class ResultStatusUtil {
     public static boolean resultStatus(BaseView mView, int status, String msg){
-        if (status==1){
+        if (status==200){
            return true;
         }
         if (status==0){

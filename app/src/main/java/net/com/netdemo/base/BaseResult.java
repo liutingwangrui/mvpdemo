@@ -5,7 +5,7 @@ package net.com.netdemo.base;
  */
 
 public class BaseResult<T> {
-    public int status;
+//    public int status;
     public int code;
     public String msg;
     public T data;

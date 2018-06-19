@@ -5,12 +5,12 @@ package net.com.netdemo.login.bean;
  */
 
 public class LoginInfo {
-  /*  private String  token;
+    private String  token;
     private String  msg;
     private String  username;
     private String  realname;
-    private String  organization;*/
-    private String system_id;
+    private String  organization;
+  /*  private String system_id;
 
     private String code;
 
@@ -108,5 +108,5 @@ public class LoginInfo {
 
     public void setAccess_token(String access_token) {
         this.access_token = access_token;
-    }
+    }*/
 }

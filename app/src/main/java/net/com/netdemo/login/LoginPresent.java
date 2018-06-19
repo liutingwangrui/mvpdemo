@@ -20,6 +20,7 @@ import net.com.netdemo.util.ResultStatusUtil;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * 登录的P层
  */
 
 public class LoginPresent extends BasePresent<LoginView> {
@@ -69,7 +70,7 @@ public class LoginPresent extends BasePresent<LoginView> {
         BaseExt.ext(resultApi.loginApi(userName, pwd),new BaseSubscriber<BaseResult<LoginInfo>>(mView){
             @Override
             public void onNext(BaseResult<LoginInfo> loginInfoBaseResult) {
-                if (ResultStatusUtil.resultStatus(mView,loginInfoBaseResult.status,loginInfoBaseResult.msg)){//返回true
+                if (ResultStatusUtil.resultStatus(mView,loginInfoBaseResult.code,loginInfoBaseResult.msg)){//返回true
                     Toast.makeText((Activity)mView,loginInfoBaseResult.msg,Toast.LENGTH_SHORT).show();
                     mView.onLoginResult(loginInfoBaseResult.data);
                 }

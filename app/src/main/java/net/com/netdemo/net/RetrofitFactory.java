@@ -13,6 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * Retrofit的创建工厂
  */
 
 public class RetrofitFactory {
