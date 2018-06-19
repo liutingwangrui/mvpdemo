@@ -12,6 +12,7 @@ import io.reactivex.disposables.CompositeDisposable;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * 基类Activity
  */
 
 public abstract class BaseActivity extends AppCompatActivity {

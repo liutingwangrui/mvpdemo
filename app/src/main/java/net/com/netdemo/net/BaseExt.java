@@ -8,6 +8,7 @@ import io.reactivex.schedulers.Schedulers;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * 基类Observanle，防止多次写一下代码
  */
 
 public class BaseExt {

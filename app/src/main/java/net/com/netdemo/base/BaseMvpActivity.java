@@ -8,6 +8,7 @@ import net.com.netdemo.MainActivity;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * 基类MVP Activity
  */
 
 public abstract class BaseMvpActivity<T extends BasePresent> extends BaseActivity implements BaseView {

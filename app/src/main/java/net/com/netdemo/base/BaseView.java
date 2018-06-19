@@ -4,6 +4,7 @@ import android.app.Activity;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * 基类V层
  */
 
 public interface BaseView {

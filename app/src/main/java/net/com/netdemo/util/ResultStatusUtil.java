@@ -6,6 +6,7 @@ import net.com.netdemo.base.BaseView;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * 返回结果处理的封装
  */
 
 public class ResultStatusUtil {

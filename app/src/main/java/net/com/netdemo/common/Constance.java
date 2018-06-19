@@ -2,6 +2,7 @@ package net.com.netdemo.common;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * 共用的静态字段
  */
 
 public class Constance {

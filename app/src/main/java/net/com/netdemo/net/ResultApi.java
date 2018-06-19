@@ -10,6 +10,7 @@ import io.reactivex.Observable;
 
 /**
  * Created by Administrator on 2018/5/31 0031.
+ * 传参的api封装，请求网络时只需要调用该方法把参数传递过来即可
  */
 
 public class ResultApi {
